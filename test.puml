@@ -1,0 +1,28 @@
+@startuml
+
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+'single line comment
+/'multiple line comment
+'/
+
+title myDiagram
+
+
+class com.inf5153.game.ConnectFour {
+- int width
+- char[][] grid
+- int lastCol
++ String toString()
++ String horizontal()
++ String vertical()
++ String slashDiagonal()
++ String backslashDiagonal()
++ {static} boolean contains(String,String)
++ boolean isWinningPlay()
++ void chooseAndDrop(char,Scanner)
+}
+class com.inf5153.game.MyClass {
+}
+@enduml

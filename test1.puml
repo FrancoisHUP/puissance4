@@ -1,0 +1,25 @@
+@startuml
+class com.inf5153.game.ConnectFour {
+- int width
+- char[][] grid
+- int lastCol
++ String toString()
++ String horizontal()
++ String vertical()
++ String slashDiagonal()
++ String backslashDiagonal()
++ {static} boolean contains(String,String)
++ boolean isWinningPlay()
++ void chooseAndDrop(char,Scanner)
+}
+class com.inf5153.game.MyClass {
+}
+class com.inf5153.game.Form {
+- JButton button1
+- JPanel panel1
+- void createUIComponents()
+}
+
+
+com.inf5153.game.JFrame <|-- com.inf5153.game.Form
+@enduml

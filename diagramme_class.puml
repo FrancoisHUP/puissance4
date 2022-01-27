@@ -1,0 +1,11 @@
+@startuml
+
+!define DARKBLUE
+
+
+class Board{
+}
+class Piece extends Board {
+}
+
+@enduml
