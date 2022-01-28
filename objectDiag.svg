@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="476px" preserveAspectRatio="none" style="width:531px;height:476px;background:#FFFFFF;" version="1.1" viewBox="0 0 531 476" width="531px" zoomAndPan="magnify"><defs><filter height="300%" id="f1no4zkcgergwi" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="205" x="156.5" y="16.708">Diagramme de d'objet</text><rect fill="#FEFECE" filter="url(#f1no4zkcgergwi)" height="84.1719" style="stroke:#A80036;stroke-width:1.5;" width="88" x="147.5" y="27.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="174" y="41.0918">Game</text><line style="stroke:#A80036;stroke-width:1.5;" x1="148.5" x2="234.5" y1="45.9219" y2="45.9219"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="39" x="153.5" y="59.2041">players</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="35" x="153.5" y="70.8447">peices</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="72" x="153.5" y="82.4854">standardDice</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="32" x="153.5" y="94.126">board</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="76" x="153.5" y="105.7666">numberPlayer</text><rect fill="#FEFECE" filter="url(#f1no4zkcgergwi)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="86" x="77.5" y="177.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="102.5" y="191.0918">Player</text><line style="stroke:#A80036;stroke-width:1.5;" x1="78.5" x2="162.5" y1="195.9219" y2="195.9219"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="83.5" y="209.2041">Player : name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="72" x="83.5" y="220.8447">Player : piece</text><rect fill="#FEFECE" filter="url(#f1no4zkcgergwi)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="89" x="218" y="171.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="244.5" y="185.0918">Board</text><line style="stroke:#A80036;stroke-width:1.5;" x1="219" x2="306" y1="189.9219" y2="189.9219"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="224" y="203.2041">Board : CELLS</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="65" x="224" y="214.8447">Board : SIZE</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="77" x="224" y="226.4854">Board : WIDTH</text><rect fill="#FEFECE" filter="url(#f1no4zkcgergwi)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="94" x="215.5" y="292.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="22" x="251.5" y="306.0918">Cell</text><line style="stroke:#A80036;stroke-width:1.5;" x1="216.5" x2="308.5" y1="310.9219" y2="310.9219"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="82" x="221.5" y="324.2041">Cell : POSITION</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="221.5" y="335.8447">Cell : position</text><rect fill="#FEFECE" filter="url(#f1no4zkcgergwi)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="128" x="15.5" y="401.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="46" x="56.5" y="415.0918">Position</text><line style="stroke:#A80036;stroke-width:1.5;" x1="16.5" x2="142.5" y1="419.9219" y2="419.9219"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="93" x="21.5" y="433.2041">Position : posLine</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="116" x="21.5" y="444.8447">Position :  posColumn</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="87" x="21.5" y="456.4854">Position : WIDTH</text><rect fill="#FEFECE" filter="url(#f1no4zkcgergwi)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="159" x="7" y="292.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="70.5" y="306.0918">Piece</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="165" y1="310.9219" y2="310.9219"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="84" x="13" y="324.2041">Piece : position;</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="147" x="13" y="335.8447">Piece : onFinishCell = false;</text><rect fill="#FEFECE" filter="url(#f1no4zkcgergwi)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="184" x="178.5" y="407.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="238" y="421.0918">MovingCell</text><line style="stroke:#A80036;stroke-width:1.5;" x1="179.5" x2="361.5" y1="425.9219" y2="425.9219"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="172" x="184.5" y="439.2041">MovingCell : destinationPosition</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="118" x="184.5" y="450.8447">MovingCell : cellType;</text><rect fill="#FEFECE" filter="url(#f1no4zkcgergwi)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="119" x="398" y="413.4531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="429.5" y="426.5918">FinishCell</text><line style="stroke:#A80036;stroke-width:1.5;" x1="399" x2="516" y1="431.4219" y2="431.4219"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="107" x="404" y="444.7041">FinishCell: cellType;</text><rect fill="#FEFECE" filter="url(#f1no4zkcgergwi)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="164" x="344.5" y="298.4531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="393" y="311.5918">CellFactory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="345.5" x2="507.5" y1="316.4219" y2="316.4219"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="152" x="350.5" y="329.7041">CellFactory : MOVING_CELLS</text><!--MD5=[093c847eb153a97c216aa78e4edf65cf]
+link Board to CellFactory--><path codeLine="57" d="M305.589,233.1421 C335.578,253.8061 374.607,280.6981 400.094,298.2581 " fill="none" id="Board-CellFactory" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="30" x="357.4134" y="287.2298">build</text><!--MD5=[d80fc484ee68f400f3119ddff68de44b]
+reverse link Game to Board--><path codeLine="58" d="M220.275,123.8421 C229.127,140.1121 238.557,157.4461 246.256,171.5951 " fill="none" id="Game-backto-Board" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="213.965,112.2441,213.319,119.4262,219.7002,122.7849,220.3462,115.6028,213.965,112.2441" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="208.9079" y="132.2433">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="234.0807" y="160.7757">1</text><!--MD5=[5778a4432fb065f83ccf0aa932a03c78]
+reverse link Board to Cell--><path codeLine="59" d="M262.5,246.4081 C262.5,262.0861 262.5,279.2431 262.5,292.6531 " fill="none" id="Board-backto-Cell" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="262.5,233.1421,258.5,239.1421,262.5,245.1421,266.5,239.1421,262.5,233.1421" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="253.675" y="253.1105">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="254.6469" y="281.8326">*</text><!--MD5=[bbc6ee62d3d47812e486fb9dc1de45ab]
+reverse link Game to Player--><path codeLine="60" d="M162.795,123.7131 C152.559,142.5271 141.54,162.7801 133.316,177.8961 " fill="none" id="Game-backto-Player" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="169.035,112.2441,162.6538,115.6028,163.2998,122.7849,169.681,119.4262,169.035,112.2441" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="156.8171" y="132.2433">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="110.6532" y="166.7334">1..*</text><!--MD5=[48991ecc17b70b4289c6d3af9cc0871b]
+reverse link Cell to Position--><path codeLine="61" d="M212.805,349.1391 C186.307,365.5011 153.852,385.5418 127.6,401.7521 " fill="none" id="Cell-backto-Position" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="224.137,342.1421,216.9303,341.8916,213.9272,348.4476,221.1339,348.6982,224.137,342.1421" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="205.2815" y="362.4424">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="128.6956" y="390.965">1</text><!--MD5=[62ea41e95c4692cb948df2194eb6bb4a]
+link Piece to Position--><path codeLine="62" d="M85.0326,342.1421 C84.0589,357.8601 82.764,378.7628 81.6718,396.3946 " fill="none" id="Piece-to-Position" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="81.3399,401.7521,85.8887,393.0167,81.649,396.7617,77.904,392.522,81.3399,401.7521" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="75.6316" y="362.4424">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="72.8944" y="390.965">1</text><!--MD5=[ec77ffabf215c452de535e5e27276e25]
+reverse link Player to Piece--><path codeLine="63" d="M109.585,239.7291 C104.3552,257.1111 98.2402,277.4341 93.6181,292.7961 " fill="none" id="Player-backto-Piece" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="113.372,227.1421,107.8129,231.7352,109.9145,238.6332,115.4736,234.0402,113.372,227.1421" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="102.5211" y="247.4424">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="86.3781" y="282.0105">1</text><!--MD5=[5f6926de7852e05c7debe6fc21b0d7dd]
+reverse link Cell to MovingCell--><path codeLine="64" d="M265.604,362.2971 C266.701,377.7887 267.892,394.6179 268.825,407.7958 " fill="none" id="Cell-backto-MovingCell" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="258.607,362.5861,264.177,342.1421,272.572,361.5971,258.607,362.5861" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[447a7ec59697c8c1994ccee222ee4f23]
+reverse link Cell to FinishCell--><path codeLine="65" d="M321.129,352.4281 C355.687,372.4538 398.036,396.9942 426.285,413.3643 " fill="none" id="Cell-backto-FinishCell" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="317.173,358.2261,303.378,342.1421,324.193,346.1131,317.173,358.2261" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[47850c9d6a395597cf95ec1677a82db6]
+@startuml
+Title Diagramme de d'objet
+
+object Game
+    Game : players
+    Game : peices
+    Game : standardDice
+    Game : board
+    Game : numberPlayer
+
+
+object Player {
+    Player : name
+    Player : piece
+
+}
+
+object Board {
+    Board : CELLS
+    Board : SIZE
+    Board : WIDTH
+
+}
+
+object Cell {
+    Cell : POSITION
+}
+
+object Position {
+    Position : posLine
+    Position :  posColumn
+    Position : WIDTH
+
+}
+
+object Piece {
+    Piece : position;
+    Piece : onFinishCell = false;
+}
+
+object Cell {
+    Cell : position
+}
+
+object MovingCell {
+    MovingCell : destinationPosition
+    MovingCell : cellType;
+}
+
+object FinishCell {
+    FinishCell: cellType;
+}
+
+object CellFactory {
+    CellFactory : MOVING_CELLS
+}
+
+Board - -"build" CellFactory
+Game "1"*- -"1" Board
+Board "1"*- -"*" Cell
+Game "1"*- -"1..*" Player
+Cell "1"*- -"1" Position
+Piece "1"->"1" Position
+Player "1"*- -"1" Piece
+Cell <|- - MovingCell
+Cell <|- - FinishCell
+@enduml
+
+PlantUML version 1.2022.1beta6(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
