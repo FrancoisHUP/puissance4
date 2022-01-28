@@ -1,0 +1,69 @@
+@startuml
+
+Title Diagramme de d'objet
+
+object Game
+    Game : players
+    Game : peices
+    Game : standardDice
+    Game : board
+    Game : numberPlayer
+
+
+object Player {
+    Player : name
+    Player : piece
+
+}
+
+object Board {
+    Board : CELLS
+    Board : SIZE
+    Board : WIDTH
+
+}
+
+object Cell {
+    Cell : POSITION
+}
+
+object Position {
+    Position : posLine
+    Position :  posColumn
+    Position : WIDTH
+
+}
+
+object Piece {
+    Piece : position;
+    Piece : onFinishCell = false;
+}
+
+object Cell {
+    Cell : position
+}
+
+object MovingCell {
+    MovingCell : destinationPosition
+    MovingCell : cellType;
+}
+
+object FinishCell {
+    FinishCell: cellType;
+}
+
+object CellFactory {
+    CellFactory : MOVING_CELLS
+}
+
+Board --"build" CellFactory
+Game "1"*--"1" Board
+Board "1"*--"*" Cell
+Game "1"*--"1..*" Player
+Cell "1"*--"1" Position
+Piece "1"->"1" Position
+Player "1"*--"1" Piece
+Cell <|-- MovingCell
+Cell <|-- FinishCell
+
+@enduml

@@ -1,0 +1,134 @@
+@startuml
+
+Title Diagramme de classes
+
+class Game {
+    -Player[] players
+    -Piece [] peices
+    -StandardDice standardDice
+    -Board board
+    -int numberPlayer
+
+    -setUpGame() // set numberplayer
+    -initGame() // create Objets set Board
+    -createObjects()
+    -assignPieceToPLayer()
+    -applyCellEffect()
+    -setWinnerIfplayerWin(Player player)
+    -setEndGameIfGameOverCondition()
+}
+
+class Player {
+    -String name;
+    -Piece piece;
+
+    -assingPiece(Piece piece)
+    -rollSixFaceDice(StandardDice sixFaceDice)
+    -boolean finishedGame()
+    -turn()
+    -playerRollDice(Player player)
+    -movePlayerPiece(Piece playerPiece, int diceRoll)
+}
+
+
+class Cell {
+    -Position POSITION;
+    +Position getPosition()
+}
+
+class Position {
+    -int posLine
+    -int posColumn
+    -int WIDTH = Board.STANDARD_WIDTH
+
+    +{static} Position getPosition(int cellId)
+    +{static} int getCellId(Position position)
+    +Position plus(int number)
+    +boolean isBefore(Position position)
+    +boolean isValid(Position position)
+}
+
+class Piece {
+    - Position position
+    - boolean onFinishCell = false
+
+    + Position getPosition()
+    + void moveTo(Position positionDestination)
+    + void setOnFinishCell()
+}
+
+package "Utils" {
+    class InputHandler {
+        + int getNumberPlayer() throws NumberOfPlayerException
+        - int getInteger() throws NumberFormatException
+        + String getPlayerName()
+        + void getEnter()
+    }
+
+    class OutputHandler {
+        + {static} void skipLine()
+        + {static}  void welcoming()
+        ...()
+    }
+}
+
+class Cell implements CellEffect {
+    -Position position
+    -CellType getCellType()
+    ^getCellType()
+    ^applyEffect()
+}
+
+interface CellEffect {
+    -getCellType()
+    -applyEffect()
+}
+
+class MovingCell extends Cell  {
+    - Position destinationPosition
+    - CellType cellType
+    ^getCellType()
+    ^applyEffect()
+}
+
+class FinishCell extends Cell {
+    - CellType cellType
+    ^getCellType()
+    ^applyEffect()
+}
+
+class Board {
+    -Cell CELLS[]
+    -getCell(Position position)
+    -setUp(Piece [] peices)
+}
+
+class CellFactory {
+    -HashMap<Integer,Integer> MOVING_CELLS
+    -createCells(int boardDimension)
+    -createFinishCell()
+}
+
+enum CellType {
+    LADDER,
+    SNAKE,
+    NORMAL,
+    FINISH
+}
+
+Board --"build" CellFactory
+Cell *- CellType
+
+
+
+Game *-- Board
+Board *-- Cell
+Game *-- Player
+Cell *--Position
+Piece ->"possede" Position
+Player *-- Piece
+Game --> OutputHandler
+Game *-- InputHandler
+Player *-- InputHandler
+
+@enduml

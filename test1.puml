@@ -1,4 +1,16 @@
 @startuml
+
+!theme reddress-lightblue
+
+'https://plantuml.com/fr/theme
+
+'single line comment
+/'multiple line comment
+'/
+
+title myDiagram
+
+
 class com.inf5153.game.ConnectFour {
 - int width
 - char[][] grid
@@ -12,14 +24,7 @@ class com.inf5153.game.ConnectFour {
 + boolean isWinningPlay()
 + void chooseAndDrop(char,Scanner)
 }
+
 class com.inf5153.game.MyClass {
 }
-class com.inf5153.game.Form {
-- JButton button1
-- JPanel panel1
-- void createUIComponents()
-}
-
-
-com.inf5153.game.JFrame <|-- com.inf5153.game.Form
 @enduml

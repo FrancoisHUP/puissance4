@@ -1,0 +1,39 @@
+@startuml
+
+Title Diagrame de sequence
+
+[-> Game: new Game()
+activate Game
+
+Game -> Game : setUpNumberOfPlayer()
+Game -> Game : init()
+activate Game
+Game -> Player : createPlayers()
+    activate Player
+Game -> Game : createObjects()
+activate Game
+Game -> Board : createBoard(Board.STANDARD_DIMENSION);
+    activate Board
+    Board -> CellFactory : new()
+    activate CellFactory
+    Board -> CellFactory : build()
+        activate CellFactory
+        CellFactory -> Cell : createCells()
+            activate Cell
+        deactivate CellFactory
+    deactivate CellFactory
+Game -> Piece : createPeices()
+    activate Piece
+Game -> Dice : createDice()
+    activate Dice
+deactivate Game
+deactivate Game
+Game -> Player : assignPieceToPLayer()
+Player -> Piece : assingPiece()
+Game -> Board : setup()
+Board -> Piece : positionPiecesToStartingCell()
+Piece -> Piece : setCell
+Game -> Game : startGame()
+
+
+@enduml

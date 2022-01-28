@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 public class ConnectFour {
 
@@ -8,9 +8,13 @@ public class ConnectFour {
     public void connectFourTest(){
         // contexte
         ConnectFour connectFour = new ConnectFour();
+        int a = 4;
+        int b = 4;
+
         // attendu
-        Boolean attendu = true;
+        int attendu = 8;
+
         // test
-        assertTrue(attendu);
+        assertEquals(attendu,a+b);
     }
 }
